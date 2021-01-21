@@ -1,0 +1,43 @@
+.login-screen {
+  width: 100%;
+  min-width: 400px;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  background: url("../images/login-background.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.login-screen .login-form-container {
+  width: 500px;
+  min-width: 400px;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 10;
+  position: relative;
+  flex-direction: column;
+  padding: 70px 50px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.login-screen .login-form-container .logo {
+  width: 100%;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1;
+  color: #788195;
+}
+
+.login-screen .login-form-container .button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
